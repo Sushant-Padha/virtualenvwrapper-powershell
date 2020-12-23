@@ -1,9 +1,13 @@
 # Changelog for VirtualEnvWrapper Powershell
 
+<<<<<<< HEAD
 ## 2020-11-26 (v0.1.3)
 	* Fix issue #21 due to working branch accidentaly merged on master
 
 ## 2020-11-17 (v0.1.2)
+=======
+## 2020-11.17 (v0.1.2)
+>>>>>>> upstream/bug/fix-space-in-name
 	* Fix bug on Get-VirtualEnvs for user with space in name
 	* Fix uncomplete environment
 

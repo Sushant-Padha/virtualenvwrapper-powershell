@@ -247,7 +247,11 @@ function Workon {
         return
     }
 
+<<<<<<< HEAD
     Import-Module $activate_path
+=======
+    Load-Module $activate_path
+>>>>>>> upstream/bug/fix-space-in-name
 
     $Env:OLD_PYTHON_PATH = $Env:PYTHON_PATH
     $Env:VIRTUAL_ENV = "$new_pyenv"
